@@ -40,6 +40,12 @@
             #region answer_07
             //it's mean the type must be struct 
             Test<int> t = new Test<int>();
+            #endregion
+            #region answer_08
+            //it's meane that type must be class
+            Class1<string> c1 = new Class1<string>();
+
+            #endregion
 
         }
         static void swap <T>(ref T a ,ref T b){

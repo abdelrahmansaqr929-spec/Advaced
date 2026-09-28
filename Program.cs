@@ -37,6 +37,9 @@
             //it's an interface that use atype parameter
             //example is implemanted
             #endregion
+            #region answer_07
+            //it's mean the type must be struct 
+            Test<int> t = new Test<int>();
 
         }
         static void swap <T>(ref T a ,ref T b){

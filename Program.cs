@@ -60,6 +60,10 @@
             #region answer12
             //put where after that classand struct , interface, new().
             #endregion
+            #region answer13
+            //it's return the dafulte value 
+            int k = default(int);
+            #endregion
 
 
         }

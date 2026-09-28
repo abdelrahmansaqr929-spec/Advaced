@@ -57,6 +57,9 @@
             #region answer11
             //it's mean that type must be inhart from base class
             #endregion
+            #region answer12
+            //put where after that classand struct , interface, new().
+            #endregion
 
 
         }

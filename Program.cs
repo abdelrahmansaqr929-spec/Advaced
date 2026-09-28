@@ -18,7 +18,21 @@
             // it's meane that a genaric class can have more than one type 
             pair<int,string> p = new pair <int,string>( 9,"saqr");
             #endregion
+            #region answer_04
+            //it's can work with different data type
+            int y = 0;
+            int x = 9;
+            swap(ref x , ref y);
+            Console.WriteLine(x);
+            Console.WriteLine(y);
 
+            #endregion
+
+        }
+        static void swap <T>(ref T a ,ref T b){
+            T temp = a;
+            a = b;
+            b = temp;
         }
     }
 }

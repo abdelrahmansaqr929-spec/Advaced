@@ -18,13 +18,13 @@ namespace Abvanced
             #endregion
             #region answer_03
             // it's meane that a genaric class can have more than one type 
-            pair<int,string> p = new pair <int,string>( 9,"saqr");
+            pair<int, string> p = new pair<int, string>(9, "saqr");
             #endregion
             #region answer_04
             //it's can work with different data type
             int y = 0;
             int x = 9;
-            swap(ref x , ref y);
+            swap(ref x, ref y);
             Console.WriteLine(x);
             Console.WriteLine(y);
 
@@ -32,7 +32,7 @@ namespace Abvanced
             #region answer _05
             int a = 0;
             int s = 9;
-            Console.WriteLine(   findMax(a, s));
+            Console.WriteLine(findMax(a, s));
 
             #endregion
             #region answer_06
@@ -84,20 +84,28 @@ namespace Abvanced
             //Action<Animal> can be assigned to Action<Dog>.
             //The in keyword marks a generic type parameter as input only
             //it can be used as a method parameter but cannot be returned.
-            I<Animal> animalConsumer =new animalcostomer() ;
+            I<Animal> animalConsumer = new animalcostomer();
             I<Dog> dogConsumer = animalConsumer;
 
             #endregion
             #region answer17
-// Covariance uses the out keyword and allows assigning a more derived type to a more general one(IEnumerable < Dog > to IEnumerable<Animal>)
-// .It applies when the type is only returned as output.
-//Contravariance uses the in keyword and allows assigning a more general type to a more derived one(Action < Animal > to Action<Dog>)
-//.It applies when the type is only accepted as input.
-//In short, covariance goes from derived to base and is used for outputs,
-//while contravariance goes from base to derived and is used for inputs.
+            // Covariance uses the out keyword and allows assigning a more derived type to a more general one(IEnumerable < Dog > to IEnumerable<Animal>)
+            // .It applies when the type is only returned as output.
+            //Contravariance uses the in keyword and allows assigning a more general type to a more derived one(Action < Animal > to Action<Dog>)
+            //.It applies when the type is only accepted as input.
+            //In short, covariance goes from derived to base and is used for outputs,
+            //while contravariance goes from base to derived and is used for inputs.
             #endregion
+            #region answer18
+            //every type has an istence 
+            Container<int>.count++;
+            Container<int>.count++;
+            Container<string>.count++;
 
+            #endregion
+            
         }
+        
         static void swap <T>(ref T a ,ref T b){
             T temp = a;
             a = b;

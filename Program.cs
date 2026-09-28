@@ -1,4 +1,6 @@
-﻿namespace Abvanced
+﻿using System.Runtime.Intrinsics.X86;
+
+namespace Abvanced
 {
     internal class Program
     {
@@ -75,6 +77,16 @@
             //The out keyword marks a generic type parameter as output only: it can be returned from methods but cannot be used as a method parameter.
             IProduser<Dog> dogs = new DogPriduser();
             IProduser<Animal> animals = dogs;
+            #endregion
+            #region answer 16
+            //Contravariance is the opposite:
+            //you can use a more general(base) type where a more derived type is expected.For example,
+            //Action<Animal> can be assigned to Action<Dog>.
+            //The in keyword marks a generic type parameter as input only
+            //it can be used as a method parameter but cannot be returned.
+            I<Animal> animalConsumer =new animalcostomer() ;
+            I<Dog> dogConsumer = animalConsumer;
+
             #endregion
 
         }

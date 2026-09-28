@@ -51,9 +51,12 @@
             Class2<int> c2 = new Class2<int>();
             #endregion
             #region answer_10
-           // it's meane thatt type must  implement interface
-           
-            #endregion 
+            // it's meane thatt type must  implement interface
+
+            #endregion
+            #region answer11
+            //it's mean that type must be inhart from base class
+            #endregion
 
 
         }

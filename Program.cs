@@ -70,7 +70,12 @@
             Console.WriteLine(sf.Get(0));
             Console.WriteLine(sf.Get(2));
             #endregion
-
+            #region answer15
+            //  Covariance lets you use a more derived type where a base type is expected.For example, if Dog inherits from Animal, you can treat IEnumerable<Dog> as IEnumerable<Animal>.
+            //The out keyword marks a generic type parameter as output only: it can be returned from methods but cannot be used as a method parameter.
+            IProduser<Dog> dogs = new DogPriduser();
+            IProduser<Animal> animals = dogs;
+            #endregion
 
         }
         static void swap <T>(ref T a ,ref T b){

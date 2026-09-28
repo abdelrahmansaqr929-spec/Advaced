@@ -4,6 +4,11 @@
     {
         static void Main(string[] args)
         {
+            #region answer_01
+            //1- a genaric class is a class that can work with different data type useing tepy parametr
+            //2- code reuse,type safety,aviod casting ,better preformance
+
+#endregion 
 
         }
     }

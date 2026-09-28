@@ -8,7 +8,12 @@
             //1- a genaric class is a class that can work with different data type useing tepy parametr
             //2- code reuse,type safety,aviod casting ,better preformance
 
-#endregion 
+            #endregion
+            #region answer02
+            Container<string> c = new Container<string>();
+            c.Add("test ");
+            Console.WriteLine(c.Get());
+#endregion
 
         }
     }

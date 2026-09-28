@@ -27,12 +27,25 @@
             Console.WriteLine(y);
 
             #endregion
+            #region answer _05
+            int a = 0;
+            int s = 9;
+            Console.WriteLine(   findMax(a, s));
+
+            #endregion
 
         }
         static void swap <T>(ref T a ,ref T b){
             T temp = a;
             a = b;
             b = temp;
+        }
+        static T findMax<T>(T a,T b ) where T :IComparable<T>
+        {
+            if (a.CompareTo(b) > 0)
+                return a;
+            return b;
+
         }
     }
 }

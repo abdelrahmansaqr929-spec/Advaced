@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Abvanced
 {
-    internal class Container<T>
+    internal class Container<T>: IReposatory<T>
     {
         private T Value;
        public void Add(T item)

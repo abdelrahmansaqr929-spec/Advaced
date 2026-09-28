@@ -33,6 +33,10 @@
             Console.WriteLine(   findMax(a, s));
 
             #endregion
+            #region answer_06
+            //it's an interface that use atype parameter
+            //example is implemanted
+            #endregion
 
         }
         static void swap <T>(ref T a ,ref T b){

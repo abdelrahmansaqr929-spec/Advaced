@@ -88,6 +88,14 @@ namespace Abvanced
             I<Dog> dogConsumer = animalConsumer;
 
             #endregion
+            #region answer17
+// Covariance uses the out keyword and allows assigning a more derived type to a more general one(IEnumerable < Dog > to IEnumerable<Animal>)
+// .It applies when the type is only returned as output.
+//Contravariance uses the in keyword and allows assigning a more general type to a more derived one(Action < Animal > to Action<Dog>)
+//.It applies when the type is only accepted as input.
+//In short, covariance goes from derived to base and is used for outputs,
+//while contravariance goes from base to derived and is used for inputs.
+            #endregion
 
         }
         static void swap <T>(ref T a ,ref T b){

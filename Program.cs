@@ -46,6 +46,11 @@
             Class1<string> c1 = new Class1<string>();
 
             #endregion
+            #region answer_09
+            //it's meane that type must have public parameter costractor
+            Class2<int> c2 = new Class2<int>();
+            #endregion
+
 
         }
         static void swap <T>(ref T a ,ref T b){

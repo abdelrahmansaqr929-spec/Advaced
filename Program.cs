@@ -64,6 +64,12 @@
             //it's return the dafulte value 
             int k = default(int);
             #endregion
+            #region answer14
+            SafeList<int> sf = new SafeList<int>();
+            sf.Add(9);
+            Console.WriteLine(sf.Get(0));
+            Console.WriteLine(sf.Get(2));
+            #endregion
 
 
         }

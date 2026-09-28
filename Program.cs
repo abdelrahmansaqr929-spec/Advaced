@@ -107,6 +107,16 @@ namespace Abvanced
             //like any class
             Container < int >q= new intContaner();
             #endregion
+            #region answer20
+            var cache = new Cache<string, int>();
+
+            cache.Add("a", 10);        
+            cache.Add("b", 20, 2);     
+
+            Console.WriteLine(cache.Get("a"));       
+            Thread.Sleep(3000);
+            Console.WriteLine(cache.Contains("b"));  
+            #endregion 
 
         }
 

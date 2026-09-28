@@ -103,9 +103,13 @@ namespace Abvanced
             Container<string>.count++;
 
             #endregion
-            
+            #region answer19
+            //like any class
+            Container < int >q= new intContaner();
+            #endregion
+
         }
-        
+
         static void swap <T>(ref T a ,ref T b){
             T temp = a;
             a = b;

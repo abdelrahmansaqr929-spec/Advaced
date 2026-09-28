@@ -50,6 +50,10 @@
             //it's meane that type must have public parameter costractor
             Class2<int> c2 = new Class2<int>();
             #endregion
+            #region answer_10
+           // it's meane thatt type must  implement interface
+           
+            #endregion 
 
 
         }
